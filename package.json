@@ -1,0 +1,38 @@
+{
+  "name": "test-codebridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliiaGagina/test-codebridge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliiaGagina/test-codebridge/issues"
+  },
+  "homepage": "https://github.com/YuliiaGagina/test-codebridge#readme",
+  "dependencies": {
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-validation": "^4.1.0",
+    "express-validator": "^7.0.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.3.5",
+    "pg": "^8.11.0",
+    "sequelize": "^6.32.0",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
